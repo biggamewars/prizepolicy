@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1e1e2f;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for Prize Policy */
+  .prize-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    background: linear-gradient(145deg, #252540, #3b3b73);
+    box-shadow: 0px 4px 25px rgba(255, 75, 100, 0.3);
+    border-radius: 15px;
+  }
+  
+  /* Title Styles */
+  .prize-policy-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ff4b64;
+    margin-bottom: 20px;
+    text-shadow: 0 0 12px #ff4b64, 0 0 25px rgba(255, 75, 100, 0.5);
+  }
+  
+  /* Section Styles */
+  .prize-policy-section p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #e6e6e6;
+    padding: 10px;
+    background: rgba(255, 75, 100, 0.1);
+    border-left: 5px solid #ff4b64;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .prize-policy-container {
+      padding: 20px;
+    }
+  
+    .prize-policy-title {
+      font-size: 2rem;
+    }
+  
+    .prize-policy-section p {
+      font-size: 1rem;
+    }
+  }
+  
